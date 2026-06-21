@@ -16,19 +16,21 @@ The system is designed as a decision-support tool, not an automated decision-mak
 ✘ Does not replace human investigators  
 ✘ Not a production forensic tool  
 
-## First Semester Status
-Completed during the first semester:
+## Project Status and Roadmap
+
+**Completed (Semesters 1 & 2):**
 - Definition of problem scope limited to chat evidence
 - Legal and ethical analysis (GDPR, proportionality, human oversight)
 - Conceptual system architecture design
-- Methodology and implementation planning
+- Development of the Proof-of-Concept prototype (Python + basic NLP)
+- Implementation of the initial relevance scoring engine (Heuristics & Regex)
+- Baseline explainability established via transparent, rule-based logic
 
-Planned for next semesters:
-- proof-of-concept prototype (Python + NLP basics)
-- Refinement of message classification logic
-- Improved relevance scoring mechanisms
-- Structured evaluation and validation
-- Explainability and investigator trust analysis
+**Planned for next semester (Semester 3):**
+- Integration of context-aware machine learning models to handle slang and context loss
+- Refinement of message classification to reduce false-positive rates
+- Structured evaluation and validation against complex synthetic datasets
+- Advanced explainability and investigator trust analysis regarding AI outputs
 
 ## Legal and Ethical Notice
 This repository does NOT contain real investigative data.
